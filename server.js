@@ -8,7 +8,15 @@ const path = require('path');
 const multer = require('multer');
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: [
+    "https://imaginative-phoenix-e64be1.netlify.app", // your Netlify frontend
+    "http://localhost:3500" // optional for local testing
+  ],
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}));
+
 app.use(bodyParser.json());
 
 const SECRET_KEY = "supersecretkey";
