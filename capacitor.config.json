@@ -1,0 +1,6 @@
+{
+  "appId": "com.kabalen.deliveryapp",
+  "appName": "DeliveryApp",
+  "webDir": "../front-end",
+  "bundledWebRuntime": false
+}

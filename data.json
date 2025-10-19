@@ -1,0 +1,179 @@
+{
+  "riders": [
+    {
+      "id": 1,
+      "name": "levi",
+      "phone": "09123456789",
+      "username": "levi",
+      "password": "123",
+      "credit": 120
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "client_id": null,
+      "customer_name": "erwin",
+      "pickup": "san luis",
+      "dropoff": "san isidro",
+      "distance": 10,
+      "fee": 200,
+      "status": "Completed",
+      "rider_id": 1,
+      "pickup_image": "pickup_1760687658541.png",
+      "dropoff_image": "dropoff_1760687658541.jpg"
+    },
+    {
+      "id": 2,
+      "client_id": null,
+      "customer_name": "erwin silvestre",
+      "customer_phone": "09123456789",
+      "pickup": "0887 river one san isidro san luis pampanga",
+      "dropoff": "san luis municipal",
+      "distance": 10,
+      "fee": 150,
+      "status": "Completed",
+      "rider_id": 1,
+      "pickup_image": "image_1760698664842.png",
+      "dropoff_image": "image_1760698664853.png"
+    },
+    {
+      "id": 3,
+      "client_id": null,
+      "customer_name": "erwin",
+      "customer_phone": "41564161",
+      "pickup": "san lsui",
+      "dropoff": "san kssdf",
+      "distance": 10,
+      "fee": 100,
+      "status": "Completed",
+      "rider_id": 1,
+      "pickup_image": "image_1760699722730.jpg",
+      "dropoff_image": "image_1760699722736.jpg"
+    },
+    {
+      "id": 4,
+      "client_id": null,
+      "customer_name": "werwer",
+      "customer_phone": "13546",
+      "pickup": "6354654",
+      "dropoff": "654654",
+      "distance": 12,
+      "fee": 2121,
+      "status": "Completed",
+      "rider_id": 1,
+      "pickup_image": "image_1760700191144.jpg",
+      "dropoff_image": "image_1760700191153.jpg"
+    },
+    {
+      "id": 5,
+      "client_id": null,
+      "customer_name": "sdf",
+      "customer_phone": "123123",
+      "pickup": "sdf",
+      "dropoff": "sf",
+      "distance": 23,
+      "fee": 123,
+      "status": "Completed",
+      "rider_id": 1,
+      "pickup_image": "image_1760700627126.jpg",
+      "dropoff_image": "image_1760700627133.jpg"
+    },
+    {
+      "id": 6,
+      "client_id": null,
+      "customer_name": "qwe",
+      "customer_phone": "123",
+      "pickup": "123qweqweqwe",
+      "dropoff": "123qweqwe",
+      "distance": 12,
+      "fee": 12312,
+      "status": "Completed",
+      "rider_id": 1,
+      "pickup_image": "image_1760701258080.jpg",
+      "dropoff_image": "image_1760701258086.jpg"
+    },
+    {
+      "id": 7,
+      "client_id": null,
+      "customer_name": "as",
+      "customer_phone": "aas",
+      "pickup": "sad",
+      "dropoff": "asd",
+      "distance": 2,
+      "fee": 2,
+      "status": "Completed",
+      "rider_id": 1,
+      "pickup_image": "image_1760701479610.jpg",
+      "dropoff_image": "image_1760701479621.jpg"
+    },
+    {
+      "id": 8,
+      "client_id": null,
+      "customer_name": "dfgdg",
+      "customer_phone": "43234",
+      "pickup": "sdfsdf",
+      "dropoff": "sdfsdfsdfsd",
+      "distance": 1,
+      "fee": 10,
+      "status": "Completed",
+      "rider_id": 1,
+      "pickup_image": "image_1760702090735.jpg",
+      "dropoff_image": "image_1760702090745.jpg"
+    },
+    {
+      "id": 9,
+      "client_id": 1,
+      "pickup": "san isidro",
+      "dropoff": "san luis",
+      "distance": 10,
+      "fee": 123,
+      "type": "food",
+      "status": "Completed",
+      "rider_id": 1,
+      "pickup_image": "image_1760705125767.jpg",
+      "dropoff_image": "image_1760705125777.jpg"
+    },
+    {
+      "id": 10,
+      "client_id": 1,
+      "pickup": "0887 river one san isidro san luis pampanga",
+      "dropoff": "0997 san isidro san luis pampanga",
+      "distance": 10,
+      "fee": 200,
+      "type": "food",
+      "status": "Accepted",
+      "rider_id": 1,
+      "pickup_image": null,
+      "dropoff_image": null
+    },
+    {
+      "id": 11,
+      "client_id": 1,
+      "pickup": "Sm pampanga",
+      "dropoff": "San luis",
+      "distance": 255,
+      "fee": 58,
+      "type": "food",
+      "status": "Completed",
+      "rider_id": 1,
+      "pickup_image": "image_1760706857450.jpg",
+      "dropoff_image": "image_1760706857461.jpg"
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "fullname": "levi silvestre",
+      "address": "river one",
+      "phone": "09123456789",
+      "username": "levi",
+      "password": "123",
+      "validId": "validId_1760703184563.jpg",
+      "selfie": "selfie_1760703184568.jpg"
+    }
+  ],
+  "nextRiderId": 2,
+  "nextOrderId": 12,
+  "nextClientId": 2
+}
